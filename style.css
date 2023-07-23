@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(188, 135, 70);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: rgb(244, 196, 137);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px  rgb(206, 148, 78),
+                      5px 5px 12px  rgba(0, 0, 0, .16);
+    display: grid;
+    grid-template-columns: repeat(4,80px);
+}
+input{
+    grid-column: span 4;
+    height: 40px;
+    width: 280px;
+    background-color: rgb(241, 211, 173); 
+    box-shadow: inset -5px -5px 12px rgb(206, 148, 78),
+                inset -5px -5px 12px rgba(38, 37, 37, 0.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(47, 38, 27);
+    font-size: 30px;
+    text-align: right;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+button{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(241, 211, 173);
+    box-shadow: inset -5px -5px 12px rgb(206, 148, 78),
+                inset -5px -5px 12px rgba(38, 37, 37, 0.16);
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 16px;
+}
+.eql_btn{
+    width: 135px;
+    border-radius: 40px;
+    background-color: rgb(241, 211, 173);
+    box-shadow: inset -5px -5px 12px rgb(206, 148, 78),
+                inset -5px -5px 12px rgba(38, 37, 37, 0.16);
+
+}
